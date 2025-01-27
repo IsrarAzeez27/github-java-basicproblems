@@ -13,5 +13,6 @@ public class DivisionOf2Numbers {
         float z = x / y;
 
         System.out.println("The division of " + x + " and " + y + " is " + z);
+
     }
 }
