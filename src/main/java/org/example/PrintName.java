@@ -1,0 +1,16 @@
+package org.example;
+
+import java.util.Scanner;
+
+public class PrintName {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        String x = sc.nextLine();
+
+        System.out.println("The Name Is " + x);
+
+    }
+}
