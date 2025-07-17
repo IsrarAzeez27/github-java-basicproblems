@@ -9,8 +9,8 @@ public class PrintMultiDimensionalArray {
         a[1][1] = 5;
         a[1][2] = 6;
 
-        for(int i=0; i<2; i++){
-            for(int j=0; j<3; j++){
+        for(int i=0; i<2; i++){ // row
+            for(int j=0; j<3; j++){ // column
                 System.out.print(a[i][j]);
                 System.out.print("\t");
             }
